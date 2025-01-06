@@ -1,6 +1,3 @@
-#ifndef _CRC8_H_
-#define _CRC8_H_
-
 // MAXIM 8-Bit CRC
 // Adapted from FastCRC lib at https://github.com/FrankBoesing/FastCRC
 
@@ -50,5 +47,3 @@ uint8_t crc8Maxim(const uint8_t *data, uint16_t datalen)
 
 	return crc;
 }
-
-#endif
